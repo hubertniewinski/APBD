@@ -2,10 +2,10 @@
 {
 	public static class MathUtils
     {
-        public static int GetMax(int[] values)
-            => values.Max();
+        public static double GetAverage(int[] conflictTest)
+            => conflictTest.Average();
 
-        public static double GetAverage(int[] values)
-			=> values.Average();
-	}
+        public static int GetMax(int[] conflictTest)
+            => conflictTest.Max();
+    }
 }
